@@ -10,5 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         Log.d(TAG_TWO,"Logger two added")
+        val TAG_THREE = "three"
+        Log.d(TAG_THREE,"Logger two added")
     }
 }
